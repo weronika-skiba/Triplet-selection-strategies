@@ -1,0 +1,7 @@
+arguments: facenet/src/train_tripletloss_modified.py --logs_base_dir logs --models_base_dir models --data_dir mock_train_data --max_nrof_epochs 30 --batch_size 30 --image_size 160 --people_per_batch 15 --images_per_person 20 --epoch_size 285 --lfw_pairs my_pairs.txt --lfw_dir mock_validation_data --lfw_nrof_folds 5
+--------------------
+tensorflow version: 2.15.0
+--------------------
+git hash: b''
+--------------------
+b''
